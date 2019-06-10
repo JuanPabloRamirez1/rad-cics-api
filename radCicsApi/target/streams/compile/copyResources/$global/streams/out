@@ -1,0 +1,7 @@
+[debug] Copy resource mappings: 
+[debug] 	(/home/juan/rbs/rad-cics-api/radCicsApi/conf/desa.conf,/home/juan/rbs/rad-cics-api/radCicsApi/target/scala-2.12/classes/desa.conf)
+[debug] 	(/home/juan/rbs/rad-cics-api/radCicsApi/conf/application.conf,/home/juan/rbs/rad-cics-api/radCicsApi/target/scala-2.12/classes/application.conf)
+[debug] 	(/home/juan/rbs/rad-cics-api/radCicsApi/conf/logback.xml,/home/juan/rbs/rad-cics-api/radCicsApi/target/scala-2.12/classes/logback.xml)
+[debug] 	(/home/juan/rbs/rad-cics-api/radCicsApi/conf/qa.conf,/home/juan/rbs/rad-cics-api/radCicsApi/target/scala-2.12/classes/qa.conf)
+[debug] 	(/home/juan/rbs/rad-cics-api/radCicsApi/conf/production.conf,/home/juan/rbs/rad-cics-api/radCicsApi/target/scala-2.12/classes/production.conf)
+[debug] 	(/home/juan/rbs/rad-cics-api/radCicsApi/conf/routes,/home/juan/rbs/rad-cics-api/radCicsApi/target/scala-2.12/classes/routes)

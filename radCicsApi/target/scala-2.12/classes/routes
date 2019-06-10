@@ -1,0 +1,26 @@
+
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+GET     /user                             controllers.UserController.get
+
+GET     /cuotas                           controllers.CuotasController.getCuotas
+
+GET     /resumen                          controllers.ResumenController.get
+
+GET     /tarjetas                        controllers.TarjetasController.getTarjetasByIdList
+
+GET     /movimientos                      controllers.MovimientosController.getMovimientosPorTarjeta
+
+GET     /parse                            controllers.ParserController.carga
+
+GET     /pdf                              controllers.PdfController.descargar
+
+GET     /categorias                       controllers.CategoriasController.getRankingCategoriasPorMes
+
+GET     /categoriasMov                    controllers.CategoriasController.getDetalleMovimientosPorCategoria
+
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
