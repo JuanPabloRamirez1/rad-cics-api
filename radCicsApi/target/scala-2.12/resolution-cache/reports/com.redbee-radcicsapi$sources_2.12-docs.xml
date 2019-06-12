@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="docs"
 		confs="universal, universal-docs, universal-src, docker, windows, compile, runtime, test, provided, optional, linux, rpm, debian, it, compile-internal, runtime-internal, test-internal, it-internal, plugin, sources, docs, pom, scala-tool, scoveragePlugin"
-		date="20190610174246"/>
+		date="20190611112514"/>
 	<dependencies>
 		<module organisation="com.typesafe.play" name="play-omnidoc_2.12">
 			<revision name="2.6.20" status="release" pubdate="20181008151001" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/omnidoc" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="49">
@@ -204,7 +204,7 @@
 		<module organisation="javax.inject" name="javax.inject">
 			<revision name="1" status="release" pubdate="20091013203500" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/atinject/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="52">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="2380" time="0" location="/home/juan/.ivy2/cache/javax.inject/javax.inject/ivy-1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom"/>
+				<metadata-artifact status="no" details="" size="2506" time="0" location="/home/juan/.ivy2/cache/javax.inject/javax.inject/ivy-1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom"/>
 				<caller organisation="com.redbee" name="radcicsapi$sources_2.12" conf="docs" rev="1" rev-constraint-default="1" rev-constraint-dynamic="1" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="javax.inject" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10928" time="0" location="/home/juan/.ivy2/cache/javax.inject/javax.inject/srcs/javax.inject-1-sources.jar">
@@ -215,7 +215,7 @@
 		</module>
 		<module organisation="javax.transaction" name="jta">
 			<revision name="1.1" status="release" pubdate="20081027232721" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://java.sun.com/products/jta" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="45">
-				<metadata-artifact status="no" details="" size="2353" time="0" location="/home/juan/.ivy2/cache/javax.transaction/jta/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/transaction/jta/1.1/jta-1.1.pom"/>
+				<metadata-artifact status="no" details="" size="2479" time="0" location="/home/juan/.ivy2/cache/javax.transaction/jta/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/transaction/jta/1.1/jta-1.1.pom"/>
 				<caller organisation="com.redbee" name="radcicsapi$sources_2.12" conf="docs" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="jta" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="25014" time="0" location="/home/juan/.ivy2/cache/javax.transaction/jta/srcs/jta-1.1-sources.jar">
@@ -646,7 +646,7 @@
 			</revision>
 		</module>
 		<module organisation="org.parboiled" name="parboiled-core">
-			<revision name="1.1.7" status="release" pubdate="20150209131230" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://parboiled.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+			<revision name="1.1.7" status="release" pubdate="20150209161230" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://parboiled.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="2789" time="0" location="/home/juan/.ivy2/cache/org.parboiled/parboiled-core/ivy-1.1.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/parboiled/parboiled-core/1.1.7/parboiled-core-1.1.7.pom"/>
 				<caller organisation="com.redbee" name="radcicsapi$sources_2.12" conf="docs" rev="1.1.7" rev-constraint-default="1.1.7" rev-constraint-dynamic="1.1.7" callerrev="1.0"/>

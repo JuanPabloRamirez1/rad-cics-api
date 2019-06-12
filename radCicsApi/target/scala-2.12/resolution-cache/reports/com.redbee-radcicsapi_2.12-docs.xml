@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="docs"
 		confs="universal, universal-docs, universal-src, docker, windows, compile, runtime, test, provided, optional, linux, rpm, debian, it, compile-internal, runtime-internal, test-internal, it-internal, plugin, sources, docs, pom, scala-tool, scoveragePlugin"
-		date="20190610174237"/>
+		date="20190611112754"/>
 	<dependencies>
 		<module organisation="com.typesafe.play" name="play-omnidoc_2.12">
 			<revision name="2.6.20" status="release" pubdate="20181008151001" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/omnidoc" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
@@ -133,7 +133,7 @@
 			</revision>
 		</module>
 		<module organisation="org.parboiled" name="parboiled-core">
-			<revision name="1.1.7" status="release" pubdate="20150209131230" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://parboiled.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="50">
+			<revision name="1.1.7" status="release" pubdate="20150209161230" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://parboiled.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="50">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="2789" time="0" location="/home/juan/.ivy2/cache/org.parboiled/parboiled-core/ivy-1.1.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/parboiled/parboiled-core/1.1.7/parboiled-core-1.1.7.pom"/>
 				<caller organisation="org.parboiled" name="parboiled-java" conf="compile, runtime" rev="1.1.7" rev-constraint-default="1.1.7" rev-constraint-dynamic="1.1.7" callerrev="1.1.7"/>
@@ -227,7 +227,7 @@
 		<module organisation="javax.inject" name="javax.inject">
 			<revision name="1" status="release" pubdate="20091013203500" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/atinject/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="44">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="2380" time="0" location="/home/juan/.ivy2/cache/javax.inject/javax.inject/ivy-1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom"/>
+				<metadata-artifact status="no" details="" size="2506" time="0" location="/home/juan/.ivy2/cache/javax.inject/javax.inject/ivy-1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom"/>
 				<caller organisation="com.typesafe.play" name="play_2.12" conf="compile, runtime" rev="1" rev-constraint-default="1" rev-constraint-dynamic="1" callerrev="2.6.20"/>
 				<artifacts>
 					<artifact name="javax.inject" type="jar" ext="jar" status="no" details="" size="2497" time="0" location="/home/juan/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar">
@@ -238,7 +238,7 @@
 		</module>
 		<module organisation="javax.transaction" name="jta">
 			<revision name="1.1" status="release" pubdate="20081027232721" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://java.sun.com/products/jta" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="43">
-				<metadata-artifact status="no" details="" size="2353" time="0" location="/home/juan/.ivy2/cache/javax.transaction/jta/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/transaction/jta/1.1/jta-1.1.pom"/>
+				<metadata-artifact status="no" details="" size="2479" time="0" location="/home/juan/.ivy2/cache/javax.transaction/jta/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/transaction/jta/1.1/jta-1.1.pom"/>
 				<caller organisation="com.typesafe.play" name="play_2.12" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="2.6.20"/>
 				<artifacts>
 					<artifact name="jta" type="jar" ext="jar" status="no" details="" size="15071" time="0" location="/home/juan/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar">

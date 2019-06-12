@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="runtime-internal"
 		confs="universal, universal-docs, universal-src, docker, windows, compile, runtime, test, provided, optional, linux, rpm, debian, it, compile-internal, runtime-internal, test-internal, it-internal, plugin, sources, docs, pom, scala-tool, scoveragePlugin"
-		date="20190610174246"/>
+		date="20190611112514"/>
 	<dependencies>
 		<module organisation="org.scalikejdbc" name="scalikejdbc-play-initializer_2.12">
 			<revision name="2.6.0-scalikejdbc-3.3" status="release" pubdate="20180727012501" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalikejdbc.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="77">
@@ -303,7 +303,7 @@
 				<metadata-artifact status="no" details="" size="3189" time="0" location="/home/juan/.ivy2/cache/com.sandinh/scala-soap_2.12/ivy-1.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sandinh/scala-soap_2.12/1.8.0/scala-soap_2.12-1.8.0.pom"/>
 				<caller organisation="com.redbee" name="radcicsapi$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="1.8.0" rev-constraint-default="1.8.0" rev-constraint-dynamic="1.8.0" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="scala-soap_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="4215" time="1355" location="/home/juan/.ivy2/cache/com.sandinh/scala-soap_2.12/srcs/scala-soap_2.12-1.8.0-sources.jar">
+					<artifact name="scala-soap_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="4215" time="1133" location="/home/juan/.ivy2/cache/com.sandinh/scala-soap_2.12/srcs/scala-soap_2.12-1.8.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sandinh/scala-soap_2.12/1.8.0/scala-soap_2.12-1.8.0-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -360,7 +360,7 @@
 		<module organisation="aopalliance" name="aopalliance">
 			<revision name="1.0" status="release" pubdate="20070226194340" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://aopalliance.sourceforge.net" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="75">
 				<license name="Public Domain"/>
-				<metadata-artifact status="no" details="" size="2291" time="0" location="/home/juan/.ivy2/cache/aopalliance/aopalliance/ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.pom"/>
+				<metadata-artifact status="no" details="" size="2417" time="0" location="/home/juan/.ivy2/cache/aopalliance/aopalliance/ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.pom"/>
 				<caller organisation="com.redbee" name="radcicsapi$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="aopalliance" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="21188" time="0" location="/home/juan/.ivy2/cache/aopalliance/aopalliance/srcs/aopalliance-1.0-sources.jar">
@@ -444,7 +444,7 @@
 		<module organisation="javax.inject" name="javax.inject">
 			<revision name="1" status="release" pubdate="20091013203500" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/atinject/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="82">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="2380" time="0" location="/home/juan/.ivy2/cache/javax.inject/javax.inject/ivy-1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom"/>
+				<metadata-artifact status="no" details="" size="2506" time="0" location="/home/juan/.ivy2/cache/javax.inject/javax.inject/ivy-1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom"/>
 				<caller organisation="com.redbee" name="radcicsapi$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="1" rev-constraint-default="1" rev-constraint-dynamic="1" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="javax.inject" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10928" time="0" location="/home/juan/.ivy2/cache/javax.inject/javax.inject/srcs/javax.inject-1-sources.jar">
@@ -455,7 +455,7 @@
 		</module>
 		<module organisation="javax.transaction" name="jta">
 			<revision name="1.1" status="release" pubdate="20081027232721" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://java.sun.com/products/jta" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="67">
-				<metadata-artifact status="no" details="" size="2353" time="0" location="/home/juan/.ivy2/cache/javax.transaction/jta/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/transaction/jta/1.1/jta-1.1.pom"/>
+				<metadata-artifact status="no" details="" size="2479" time="0" location="/home/juan/.ivy2/cache/javax.transaction/jta/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/transaction/jta/1.1/jta-1.1.pom"/>
 				<caller organisation="com.redbee" name="radcicsapi$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="jta" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="25014" time="0" location="/home/juan/.ivy2/cache/javax.transaction/jta/srcs/jta-1.1-sources.jar">
@@ -996,7 +996,7 @@
 			</revision>
 		</module>
 		<module organisation="commons-logging" name="commons-logging">
-			<revision name="1.2" status="release" pubdate="20140705151228" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-logging/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+			<revision name="1.2" status="release" pubdate="20140705181228" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-logging/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="11623" time="0" location="/home/juan/.ivy2/cache/commons-logging/commons-logging/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom"/>
 				<caller organisation="com.redbee" name="radcicsapi$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="1.0"/>
@@ -1008,7 +1008,7 @@
 			</revision>
 		</module>
 		<module organisation="log4j" name="log4j">
-			<revision name="1.2.17" status="release" pubdate="20120526064339" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://logging.apache.org/log4j/1.2/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+			<revision name="1.2.17" status="release" pubdate="20120526094339" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://logging.apache.org/log4j/1.2/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3670" time="0" location="/home/juan/.ivy2/cache/log4j/log4j/ivy-1.2.17.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.pom"/>
 				<caller organisation="com.redbee" name="radcicsapi$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="1.2.17" rev-constraint-default="1.2.17" rev-constraint-dynamic="1.2.17" callerrev="1.0"/>
